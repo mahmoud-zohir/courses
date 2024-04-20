@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Programming courses</title>
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+   </head>
+<body>
+    <div class="container">
+      <div class="title">projects and assignments</div>
+      <div class="content">
+          <div class="cours">
+            <div class="one_course">
+              <h4>Web Development</h4>
+              <img src="./image/web-developments.webp" alt="">
+              <p>  HTML, CSS, JavaScript, React.js, Angular, or Vue.js.</p>
+            </div>
+            <div class="one_course">
+              <h4>Mobile Development </h4>
+              <img src="./image/app-development-banner_33099-1720.avif" alt="">
+              <p> languages like Swift or Kotlin, and frameworks like React Native or Flutter.</p>
+            </div>
+            <div class="one_course">
+              <h4>Data Science</h4>
+              <img src="./image/Blog-3-Title-Banner-1.jpg" alt="">
+              <p> Python or R along with Pandas, NumPy, and TensorFlow.</p>
+            </div>
+         
+            
+          </div>
+          <div class="cours">
+            <div class="one_course">
+              <h4>Game Development</h4>
+              <img src="./image/622227fd2ce3cc0455a88166_blog-gamedev-fullsize.png" alt="">
+              <p>frameworks and engines like Unity or Unreal Engine, along with programming languages like C# or C++.</p>
+            </div>
+            <div class="one_course">
+              <h4>Artificial Intelligence </h4>
+              <img src="./image/artificial-intelligence-market-to-reach-usd-1581-70-bn-by-2030.webp" alt="">
+              <p>  languages like Python and using libraries like TensorFlow, PyTorch, and scikit-learn.</p>
+            </div>
+            <div class="one_course">
+              <h4>Cybersecurity </h4>
+              <img src="./image/Cyber security header_1920x1280px (1).jpg" alt="">
+              <p> encryption, penetration testing, security protocols, and various security tools and frameworks</p>
+            </div>
+          </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+          <input type="hidden" name="access_key" value="7b860a4a-4fe4-43bf-9292-0dcbe26e9848">
+
+          <div class="user-details">
+            <div class="input-box">
+             <label for="inputField1"> <span class="details">Full Name</span></label>
+              <input type="text" id="inputField1" name="name" placeholder="Enter your name" required>
+            </div>
+           
+            
+            <div class="input-box">
+              <label for="inputField3"><span class="details">Phone Number</span></label>
+              <input type="text" id="inputField3" name="phone" placeholder="Enter your number" required>
+            </div>
+            <div class="input-box">
+              
+              <label for="inputField4"><span class="details">Payment System</span></label>
+              <select name="pay" id="inputField4">
+                <option value="Web Development">Please select</option>
+                <option value="once">One-time payment with a discount of 20%</option>
+                <option value="twice">Pay on twice </option>
+                
+              </select>
+            </div>
+            <div class="input-box">
+              <label for="inputField5"><span class="details">tracks</span></label>
+              <select name="track" id="inputField5">
+                <option value="Web Development">Please select</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Mobile Development">Mobile Development </option>
+                <option value="Game Development">Game Development </option>
+                <option value="Data Science">Data Science</option>
+                
+               
+                <option value="Cybersecurity">Cybersecurity </option>
+                <option value="Artificial Intelligence (AI)">Artificial Intelligence (AI)  </option>
+  
+              </select>
+          
+            </div>
+            
+          </div>
+          
+          <div class="button">
+            <input type="submit"  onclick="saveData()" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
